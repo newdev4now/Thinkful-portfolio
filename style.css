@@ -36,8 +36,9 @@ h1 {
 
 h2 {
   font-size: 25px;
-  text-align: center;
+  text-align: left;
   color: darkblue;
+  text-decoration: none;
 }
 
 h3 {
@@ -46,6 +47,10 @@ h3 {
   color: darkblue;
   text-decoration: none;
   font-style: oblique;
+}
+
+hr {
+  border-top: 1px solid darkblue;
 }
 
 body {
