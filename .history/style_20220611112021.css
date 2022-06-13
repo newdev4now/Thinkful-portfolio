@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=IBM+Plex+Serif:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+/*
+  STYLE.CSS:
+  One stylesheet to rule them all.
+
+  selector { property: value; }
+
+*/
+
+/* ----- #structure ----- */
+
+
+
+html {
+  font-size: 10px; /* Base font is 10px */
+  font-family: Courgette;
+  background-color: lightgrey
+}
+/* Main Header */
+header {
+  height: 300px;
+  color: lightgray;
+}
+/* Title - Steven Tipton */
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: darkblue;
+  text-shadow: 3px 3px 1px black;
+  float: left;
+
+}
+/* Introduction and About Me heading */
+h2 {
+  font-size: 25px;
+  text-align: left;
+  color: darkblue;
+  text-decoration: none;
+}
+/* Contact heading */
+h3 {
+  font-size: 20px;
+  text-align: left;
+  color: darkblue;
+  text-decoration: none;
+  font-style: oblique;
+}
+
+hr {
+  border-top: 1px solid darkblue;
+}
+/* Background image (One of my drawings to express a little bit about myself) */
+body {
+  background-image: url("images/new-somewhere-oregon6/jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: lightgray;
+}
+/* Used opacity property to help lighten background image to see text better*/
+background-image {
+  opacity: 0.1;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  text-indent: 5px;
+  text-decoration: none;
+}
+
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  color: black;
+}
+
+footer {
+  background-color: lightgrey;
+}
+/* Header and footer wrapper */
+.wrapper {
+  width: 980px;
+  margin: auto;
+}
+
+.header-container {
+  background: lightgrey;
+  font-family: "Courgette";
+  font-size: 40px;
+  color: darkblue;
+  text-align: center;
+  height: 90px;
+  margin: 10px;
+  padding: 5px;
+}
+/* Profile picture */
+.thumbnails img {
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+  width: 100px;
+}
+
+.content {
+  width: 800px;
+  border: 15px solid black;
+  padding: 15px;
+  margin: 10px;
+  background-color: white;
+}
+
+a:link { color: blue; }
+a:visited { color: red; }
+a:hover { color: green; }
+a:active { color: purple; }
